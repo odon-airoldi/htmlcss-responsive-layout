@@ -16,12 +16,44 @@
         padding: 32px;
     }
 
-    /************* RECIPE *************/
-
     /* Recipe header */
 
     .recipe-origin {
         display: block;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+
+    /* Quick Notes */
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        flex-basis: 50%;
+    }
+
+    /*  SOCIAL NETWORKS */
+    
+    .social-networks button {
+        flex-grow: 1;
+    }
+
+    /* ADS */
+
+    .ads {
+        display: block;
+    }
+
+    /* PRESENTATION */
+
+    .presentation img {
+        float: left;
+        margin: 12px 20px 0 0;
     }
 
 }
