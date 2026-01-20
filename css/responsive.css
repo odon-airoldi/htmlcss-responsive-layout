@@ -1,0 +1,27 @@
+/* Soluzione qui */
+
+/* min width 768px */
+
+@media screen and (min-width:768px) {
+
+    /*  HEADER  */
+
+    #topbar {
+        justify-content: flex-start;
+    }
+
+    /* MAIN */
+
+    main {
+        padding: 32px;
+    }
+
+    /************* RECIPE *************/
+
+    /* Recipe header */
+
+    .recipe-origin {
+        display: block;
+    }
+
+}
