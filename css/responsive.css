@@ -1,5 +1,25 @@
 /* Soluzione qui */
 
+
+/* min width 576px */
+
+@media screen and (min-width:576px) {
+
+    /* PRESENTATION */
+
+    .presentation img {
+        float: left;
+        margin: 12px 20px 0 0;
+    }
+    
+    /*  SOCIAL NETWORKS */
+    
+    .social-networks button {
+        flex-grow: 1;
+    }
+
+}
+
 /* min width 768px */
 
 @media screen and (min-width:768px) {
@@ -37,23 +57,60 @@
         flex-basis: 50%;
     }
 
-    /*  SOCIAL NETWORKS */
-    
-    .social-networks button {
-        flex-grow: 1;
-    }
-
     /* ADS */
 
     .ads {
         display: block;
     }
 
-    /* PRESENTATION */
+}
 
-    .presentation img {
-        float: left;
-        margin: 12px 20px 0 0;
+/* min width 992px */
+
+@media screen and (min-width:992px) {
+
+    /* Recipe header */
+
+    .recipe-name {
+        font-size: 2.5rem;
+    }
+
+    /* Quick Notes */
+
+    .quick-notes li {
+        flex-basis: 100%;
+    }
+
+    /* Recipe Card */
+    
+    .recipe-card {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recipe-video {
+        flex-basis: 50%;
+    }
+
+    /* Recipe Information */
+
+    .recipe-info {
+        flex-basis: 50%;
+        height: auto;
+    }
+
+    /*  SOCIAL NETWORKS */
+
+    .social-networks .label {
+        display: block;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between
     }
 
 }
